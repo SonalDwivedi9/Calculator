@@ -157,6 +157,9 @@ for(var i = 0 ;buttons.length ; i++){
             }
             
         }else{
+            if (display.innerText==0){
+                display.innerText="";
+            }
             display.innerText+=value;    //(no. input)
             console.log(value);
         }    
